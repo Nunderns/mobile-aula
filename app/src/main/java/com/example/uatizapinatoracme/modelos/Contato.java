@@ -1,14 +1,12 @@
 package com.example.uatizapinatoracme.modelos;
 
-import java.util.Objects;
-
 public class Contato {
     private int contatoId;
     private String contato;
     private String celular;
     private String email;
 
-    public Contato(int contatoId, String contato, String celular, String email) {
+    public Contato(String contato, String celular, String email) {
         this.contatoId = contatoId;
         this.contato = contato;
         this.celular = celular;
